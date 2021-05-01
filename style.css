@@ -1,0 +1,303 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+body {
+    color: #555;
+    font-family: Open Sans;
+    font-size: 16px;
+   
+    height: 100vh;
+    font-weight: 400;
+}
+
+.left-container {
+    height: 100vh;
+    background-image: linear-gradient(#ad27d6, #c11fd6);
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.right-container {
+    height: 100vh;
+    width: 100%;
+    position: relative;
+}
+
+.header {
+    font-weight: 700;
+    font-size: 36px;
+}
+
+.sub-text {
+    font-size: 22px;
+    font-weight: 400;
+}
+
+.month-container {
+    padding-top: 25%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.calc-container {
+    padding-top: 12%;
+    padding-left: 5%;
+    padding-right: 5%;
+}
+
+.fs-white {
+    color: #ffffff;
+}
+
+.fs-dark-grey {
+    color: #4e4e4e;
+}
+
+.budget-container {
+    display: inline-block;
+    background: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 6px 4px #000000;
+}
+
+.month-amount {
+    font-size: 36px;
+    font-weight: 700;
+}
+
+.bottom-border {
+    border-bottom: 1px solid #6d0067;
+}
+
+.expense-row {
+    padding: 10px;
+}
+
+.expense-date {
+    color: #6d0067;
+}
+
+.expense-text {
+    color: #6d0067;
+}
+
+.expense-list {
+    overflow-y: scroll;
+}
+
+.fs-15 {
+    font-size: 15px;
+}
+
+.expense-value {
+    text-align: end;
+}
+
+.expense-saving {
+    color: #039300;
+}
+
+.expense-cost {
+    color: #E40000;
+}
+
+.expense-investment {
+    color: #f48803;
+}
+
+#expense-chart {
+    margin: 20% 0;
+}
+
+.btn-submit-expense {
+    border-radius: 50%;
+}
+
+.currency-select {
+    margin: 0 4%;
+}
+
+.selected-currency {
+    color: #ffffff;
+    font-size: 12px;
+    font-weight: 700;
+    margin-top: 1%;
+}
+* {box-sizing: border-box}
+
+
+/* Full-width input fields */
+input[type=text], input[type=password] {
+  width: 100%;
+  padding: 15px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=number]{
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #f1f1f1;
+  }
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: #ad27d6;
+  color: white;
+  padding: 16px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 100%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+.signinbtn {
+    background-color: #ad27d6;
+    color: white;
+    padding: 16px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    opacity: 0.9;
+  }
+
+  .signinbtn:hover {
+    opacity:1;
+  }
+/*іконка на початковуму столі*/
+  .signbutt{
+      margin: 0.5rem 0 0 +60rem;
+      text-align: center;
+      color: #fff;
+      background: dodgerblue;
+      border:1px solid #ccc;
+      border-radius:3px;
+      padding:6px 24px;
+      cursor:pointer;
+      transition-duration: 0.4s;
+      box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  }
+
+  .signbutt:hover{
+      background: #ad27d6;
+    }
+    .registerbutt {
+        border: none;
+        outline: none;
+        background: none;
+        cursor: pointer;
+        color: dodgerblue;
+        padding: 0;
+        font-family: Open Sans;
+        font-size: inherit;
+    }
+    #window{
+        width: 67%;
+        height: 560px;
+        margin:auto;
+        background-color:#fff;
+        opacity: 0.95;
+        border: 5px solid #fff;
+        border-radius: 5px;
+        z-index: 150;
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    #window1{
+        width: 67%;
+        height: 700px;
+        margin:auto;
+        background-color:#fff;
+        opacity: 0.97;
+        border: 5px solid #fff;
+        border-radius: 5px;
+        z-index: 150;
+        display: none;
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+    }
+    
+    #gray{
+        background-color: rgba(1, 1, 1, 0.75);
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: none;
+        z-index: 100;
+        overflow:auto;
+    }
+    #gray1{
+        position: fixed;
+        left: 0;
+        right: 0;
+        top: 0;
+        bottom: 0;
+        display: none;
+        z-index: 100;
+        overflow:auto;
+    }
+    .close:hover{
+        border: 1px solid #ccc;
+        padding:2px;
+
+    }
+    .msg{
+        border:2px solid red;
+        border-radius: 3px;
+        padding:10px;
+        text-align: center;
+        font-weight: bold;
+        opacity: 1;
+    }
